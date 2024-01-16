@@ -144,6 +144,7 @@ main{
     background: #fff;
     border: 2px solid black;
     padding: 20px 20px 20px 20px;
+    min-height: 2800px;
 }
 
 
@@ -183,6 +184,107 @@ margin-left: 50px;
 }
 /* popular tour section end */
 
+/* destination section */
+.destination{
+    margin-top: 30px;
+    
+}
+.destination-title{
+    color: #131318;
+
+text-align: center;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 800;
+}
+
+ .first-row{
+    display: flex;
+    gap: 40px;
+    
+    
+    
+  
+    
+} 
+.first-row img{
+    width: 100%;
+    
+    
+
+} 
+
+.second-row{
+    display: flex;
+    gap: 20px;
+}
+
+/* common css */
+.card{
+    position: relative;
+    margin-top: 10px;
+}
+.card .text{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: #FFF;
+text-align: center;
+font-size: 1.75rem;
+font-weight: 800;
+}
+
+
+.third-row{
+    display: flex;
+    gap: 20px;
+}
+
+
+/* why chose us section */
+.why-chose-us{
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+    margin-top: 50px;
+   
+}
+.why-chose-us-title{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+margin-top: 50px;
+}
+
+.why-chose-us-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+.why-chose-us-card1{
+    border-radius: 1rem;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+width: 100%;
+height: 17.75rem;
+}
+
+.why-chose-us-card2{
+    border-radius: 1rem;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+width: 100%;
+}
+
+.why-chose-heading{
+    color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+line-height: normal;
+}
+
+
+
 
 
 
@@ -191,6 +293,11 @@ margin-left: 50px;
 /* responsive */
 /* small device */
 @media screen and (max-width: 576px) {
+
+    .nav-item ul{
+        display: flex;
+        flex-direction: column !important;
+    }
     .find-now-section {
         flex-direction: column;
         padding-top: 10px;
@@ -211,6 +318,10 @@ margin-left: 50px;
         margin-bottom: -20px;
     }
 
+    .popular-tour-content{
+        width: 100%;
+    }
+
     select{
         width: 20.875rem;
     padding: 10 25px;
@@ -229,13 +340,20 @@ margin-left: 50px;
     .popular-tour-content ul li {
       margin: 0;
         padding: 0 ;
-        padding-left: 50px;
-        margin-left: 30px;
+        /* padding-left: 50px;
+        margin-left: 30px; */
+        
+        text-align: center;
        
     }
     .popular-tour-picture{
         margin-left: -80px;
     }
-    
-    
+
+    .first-row,.second-row, .third-row{
+        flex-direction: column;
+    }
+    .kashmir{
+        width: 100%;
+    }
 }
