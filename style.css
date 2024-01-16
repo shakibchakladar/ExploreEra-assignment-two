@@ -28,7 +28,7 @@ nav{
     justify-content: space-between;
     padding: 50px;
 }
-.left{
+.left1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,7 @@ nav{
     margin-right: 50px;
 }
 
-.left>img{
+.left1>img{
     width: 3rem;
 height: 3.5005rem;
 
