@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+header{
+    max-width: 1260px;
+    margin: 0 auto;
+    background: #fff;
+    border: 2px solid black;
+    padding: 20px 20px 20px 20px;
+}
+
+/* nav section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.left>img{
+    width: 3rem;
+height: 3.5005rem;
+
+}
+.nav-title{
+ color: #131318;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 800;
+
+}
+
+.nav-item{
+    width: 50%;
+}
+.nav-item ul{
+    display: flex;
+    list-style: none;
+}
+.nav-item ul li{
+    margin: 10px;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color: #424247;
+text-align: center;
+font-size: 1.125rem;
+font-weight: 400;
+padding: 10px;
+}
+
+/* banner section */
+.banner{
+    background-image: url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding:200px 300px;
+}
+.banner-title{
+    color: #FFF;
+font-size: 4rem;
+font-weight: 800;
+margin-top: -50px;
+}
+.banner-discription{
+    color: #FFF;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.find-now-section{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    border-radius: 0.5rem;
+border-radius: 0.5rem;
+background: rgba(255, 255, 255, 0.30);
+
+}
+.where-go{
+    width: 10.875rem;
+height: 3.25rem;
+border-radius: 0.5rem;
+background: #FFF;
+border: 0;
+}
+::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+
+}
+
+select{
+    width: 10.875rem;
+height: 3.25rem;
+border-radius: 0.5rem;
+background: #FFF;
+border: 0;
+}
+
+.find-now-btn{
+ width: 10.875rem;
+height: 3.25rem;
+border-radius: 0.5rem;
+background: #FF5400;
+color: #FFF;
+font-size: 1.2rem;
+display: flex;
+align-items: center;
+border: none;
+
+}
+
+
+
+
+
+/* small device */
+@media screen and (max-width: 576px) {
+    .find-now-section {
+        flex-direction: column;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .banner{
+        padding: 20px;
+        overflow-x: hidden;
+        width: 400px;
+        margin: auto;
+    }
+     .banner-title{
+        font-size: 50px;
+     margin-top: 20px;  
+    }
+    .banner-discription{
+        font-size: 0.rem;
+        margin-bottom: -20px;
+    }
+
+    select{
+        width: 20.875rem;
+    padding: 10 25px;
+    }
+    .where-go{
+        width: 21rem;
+    }
+    .find-now-btn{
+        padding: 0 100px;
+        width: 21rem;
+        
+    }
+    
+}
