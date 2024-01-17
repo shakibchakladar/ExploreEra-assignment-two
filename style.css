@@ -305,7 +305,6 @@ margin-top: 40px;
     padding: 50px 0;
     position: relative;
 }
-.pic img{}
 .details{
     display: flex;
     flex-direction: column;
@@ -370,6 +369,14 @@ justify-content: center;
 align-items: center;
 bottom: 100px;
 right: 600px;
+}
+
+.details-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
 }
 
 /* perfect place section start */
@@ -560,14 +567,12 @@ margin-left: 50px;
     .popular-tour-content ul li {
       margin: 0;
         padding: 0 ;
-        /* padding-left: 50px;
-        margin-left: 30px; */
+        
         
         
        
     }
     .popular-tour-picture{
-        /* margin-left: -80px; */
        padding: 0;
        margin: 0;
         margin-left: -100px;
@@ -589,7 +594,8 @@ margin-left: 50px;
         justify-content: center;
     }
     .details{
-        width: 16rem;
+        width: 50%;
+        height: auto;
         left: 101px;
         
     }
