@@ -388,6 +388,7 @@ right: 600px;
 .newslater-section{
     display: flex;
     margin-top: 50px;
+    gap: 10px;
 }
 .left{
     display: flex;
@@ -397,12 +398,14 @@ height: 25.75rem;
 background: #FFF;
 border-radius: 1rem;
 border: 1px solid #FF5400;
+
 }
 .newslatter-title{
     color: #131318;
 font-size: 1.5rem;
 font-style: normal;
 font-weight: 800;
+padding: 20px 0;
 }
 input{
     border: 0;
@@ -410,6 +413,8 @@ input{
 height: 3.25rem;
 border-radius: 0.5rem;
 background: rgba(19, 19, 24, 0.05);
+margin: 10px;
+margin-bottom: 20px;
 }
 ::placeholder{
     color: rgba(19, 19, 24, 0.30);
@@ -430,6 +435,40 @@ background: #FF5400;
 width: 24.5625rem;
 height: 3.25rem;
 border: 1px solid #FF5400;
+}
+
+.right{
+    position: relative;
+}
+.card-tavel{
+    width: 20.25rem;
+height: 7.5rem;
+transform: rotate(-19.628deg);
+border-radius: 1rem;
+background: #FF5400;
+position: absolute;
+bottom: 100px;
+left: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#travel{
+    color: #FFF;
+
+text-align: center;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#save-up{
+    color: #FFF;
+font-size: 2rem;
+font-style: normal;
+font-weight: 800;
 }
 
 
@@ -463,6 +502,9 @@ line-height: normal;
 padding: 20px;
 margin-left: 50px;
 }
+
+
+
 /* responsive */
 /* small device */
 @media screen and (max-width: 576px) {
@@ -539,7 +581,6 @@ margin-left: 50px;
         margin: auto;
     }
     /* why chose us */
-    .why-chose-us{}
     .why-chose-us-container{
         flex-direction: column;
     }
@@ -562,5 +603,14 @@ margin-left: 50px;
   }
   footer{
     width: 100%;
+  }
+
+  /* .newslater-section */
+  .newslater-section{
+    flex-direction: column;
+    width: 100%;
+  }
+  .card-tavel{
+    left: 0;
   }
 }
