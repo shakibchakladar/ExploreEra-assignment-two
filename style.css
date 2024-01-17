@@ -575,7 +575,7 @@ margin-left: 50px;
     .popular-tour-picture{
        padding: 0;
        margin: 0;
-        margin-left: -100px;
+        /* margin-left: -100px; */
     }
 
     .first-row,.second-row, .third-row{
