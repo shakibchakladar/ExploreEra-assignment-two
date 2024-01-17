@@ -309,7 +309,7 @@ margin-top: 40px;
     display: flex;
     flex-direction: column;
     width: 30.1875rem;
-height: 20.3125rem;
+height: 18.3125rem;
 border-radius: 1rem;
 border: 2px solid #fff;
 word-wrap: break-word;
@@ -359,7 +359,7 @@ padding: 10px 20px;
     display: flex;
     flex-direction: column;
     width: 30.1875rem;
-height: 20.3125rem;
+height: 18.3125rem;
 border-radius: 1rem;
 border: 2px solid #fff;
 word-wrap: break-word;
@@ -519,7 +519,9 @@ margin-left: 50px;
     .nav-item ul{
         display: flex;
         flex-direction: column !important;
+        
     }
+   .nav-item
     .find-now-section {
         flex-direction: column;
         padding-top: 10px;
@@ -585,6 +587,10 @@ margin-left: 50px;
         width: 100%;
         margin: auto;
     }
+
+    .rm-btn{
+        margin: 20px;
+    }
     /* why chose us */
     .why-chose-us-container{
         flex-direction: column;
@@ -597,6 +603,8 @@ margin-left: 50px;
         width: 50%;
         height: auto;
         left: 101px;
+        
+        
         
     }
     .perfect-place{
@@ -619,4 +627,6 @@ margin-left: 50px;
   .card-tavel{
     left: 0;
   }
+
+  .nav-item{display: none;}
 }
